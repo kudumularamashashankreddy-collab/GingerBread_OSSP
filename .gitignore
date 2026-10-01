@@ -1,0 +1,10 @@
+cat <<EOT >> .gitignore
+# Binaries & build artifacts
+ulms
+*.o
+*.out
+
+# Logs (keep directory structure if needed)
+logs/*.log
+!logs/.gitkeep
+EOT
